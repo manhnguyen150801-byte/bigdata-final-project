@@ -25,14 +25,6 @@ BigData Github/
 ├── README.md                  ← This file
 ├── .gitignore                 ← Python/Jupyter ignore rules
 │
-├── data/                      ← Raw training datasets (Parquet, not tracked by Git)
-│   ├── products.parquet
-│   ├── orders.parquet
-│   ├── order_items.parquet
-│   ├── website_sessions.parquet
-│   ├── website_pageviews.parquet
-│   └── README.md              ← Full schema, ER diagram, and loading instructions
-│
 ├── notebook/
 │   ├── BigData_Notebook.ipynb ← Main PySpark analysis notebook
 │   └── README.md              ← Notebook walkthrough and usage guide
